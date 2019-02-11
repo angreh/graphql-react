@@ -1,0 +1,12 @@
+.events-control {
+    text-align: center;
+    border: 1px solid orangered;
+    padding: 1rem;
+    margin: 2rem auto;
+    width: 40rem;
+    max-width: 80%;
+}
+.events-control p {
+    margin-bottom: 1rem;
+}
+

@@ -1,0 +1,53 @@
+.main-navigation {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 3.5em;
+    background: orangered;
+    padding: 0 1em;
+    display: flex;
+    align-items: center;
+}
+
+.main-navigation__logo h1 {
+    margin: 0;
+    font-size: 1.5rem;
+}
+
+.main-navigation__item {
+    margin-left: 1.5rem;
+}
+
+.main-navigation__item ul {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.main-navigation__item li {
+    margin: 0 1rem;
+}
+
+.main-navigation__item li button,
+.main-navigation__item li a {
+    text-decoration: none;
+    color: #ffb69b;
+    border: none;
+    background: transparent;
+    font: inherit;
+}
+
+.main-navigation__item li button:hover,
+.main-navigation__item li button.active,
+.main-navigation__item li a:hover,
+.main-navigation__item li a:active,
+.main-navigation__item li a.active {
+    color: #fff;
+    cursor: pointer;
+}
+
+.main-content {
+    margin: 4rem 2.5rem;
+}
